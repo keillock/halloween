@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+
+
+:root{
+	--color-naranja: #ffac2c;
+	--color-footer: #ED8F03;
+	--color-texto: #999;
+	--color-fondo: #f9fbf3;
+	--color-negro: #29373c;
+	
+}
+
+.halloween-font{
+	font-family: 'Shojumaru', cursive;
+	color: var(--color-naranja)!important;
+}
+.title-font{
+	font-family: 'Nanum Pen Script', cursive;
+}
+body{
+	font-family: 'Stylish', sans-serif;
+
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+#hero{
+	background-image:url("../img/bg-hero.png");
+	background-position: center;
+	background-size: cover;
+	text-align:center;
+	padding:13%;
+	color:white;
+}
+.btn-primary{
+	margin-top:3%;
+	text-align:center;
+	background-color: var(--color-naranja);
+	border:none;
+	color: var(--color-negro);
+}
+.btn-shop{
+	margin-top:3%;
+	text-align:center;
+	background-color: var(--color-negro);
+	border:none;
+	color:white;
+	
+}
+strong{
+	color:#ffac2c;
+}
+h1{
+	font-size:55px;
+}
+h5{
+	font-size:12px;
+}
+.cajita-reloj{
+	border-radius:15px;
+	border:medium;
+	border-color:white;
+	border-width: medium;
+	box-shadow: 0px 0px 0px 2px white;
+	
+}
+.timer{
+	margin-top:5%;
+}
+#offer{
+	text-align:center;
+	padding:10%;
+}
+#offer p, #FAQ p{
+	color: var(--color-texto);
+}
+#FAQ{
+	background-color: var(--color-fondo);
+	padding:10%;
+	
+}
+#review{
+	padding:15%;
+}
+#subscribe{
+	text-align:center;
+	background-color: var(--color-fondo);
+	padding:10%;
+}
+#subscribe h2{
+	margin-bottom:10%;
+}
+
+footer{
+	text-align:center;
+	background-color: var(--color-naranja);
+	padding: 10% 0% 4%;
+}
+
+a{
+	font-size:20px;
+}
+.nav-tabs{
+	color: var(--color-negro);
+
+
